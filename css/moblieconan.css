@@ -1,0 +1,91 @@
+div.nav-click{
+    display: block;
+    text-align: right;
+    margin-right:10px ;
+}
+div.col1{
+    width: 80%;
+}
+div.col1 > img{
+    width: 100%;
+}
+.col2{
+    width: 20%;
+}
+div.col2 > div.menu{
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    background: rgba(0,0,0,0.7);
+    transform: scale(0);
+}
+.active{
+    transform: scale(1);
+}
+div.col2 > div.nav-click{
+    display: block;
+}
+div.search{
+    width: 100%;
+}
+ul.nav{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border:double;
+    border-radius: 20px;
+    overflow: hidden;
+}
+ul.nav > li{
+    width: 100%;
+}
+div.register{
+    width: 50%;
+}
+div.login{
+    width: 50%;
+}
+form{
+    width: 100%;
+    z-index: 1;
+}
+form input.input-text{
+    margin: 5px;
+    border: pink solid;
+    border-radius:20px;
+    width: 95%;
+}
+div.film-content{
+    padding: 20px;
+}
+div.film-content > div{
+    display: block;
+}
+div.link-button{
+    margin-bottom: 20px;
+}
+div.film-content > div > div.infomation{
+    width: 100%;
+    background: orange;
+    border-radius: 20px;
+    box-shadow: 5px 5px 0 rgba(0,0,0,0.5);
+    padding: 10px;
+}
+div.details > ul{
+    padding: 0;
+}
+div.film-content > div > div.picture{
+    margin: 0 auto;
+}
+div.exit{
+    display: block;
+    text-align: center;
+    width: 100%;
+}

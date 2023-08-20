@@ -1,0 +1,30 @@
+[
+{
+    "name":"Trang chủ",
+    "link":"./trangchu.html"
+},
+{
+    "name":"phim",
+    "link":"./phim.html"
+},
+{
+    "name":"liên hệ",
+    "link":"#"
+},
+{
+    "name":"tin tức",
+    "link":"#"
+},
+{
+    "name":"Rạp và giá",
+    "link":"#"
+},
+{
+    "name":"Khuyến mãi",
+    "link":"#"
+},
+{
+    "name":"Hỏi đáp",
+    "link":"#"
+}
+]

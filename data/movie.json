@@ -1,0 +1,50 @@
+[
+    {   
+        "goto":"#",
+        "image":"./img/tay-dua-kiet-xuat.jpg",
+        "name":"TAY ĐUA KIỆT SUẤT",
+        "link":"https://www.youtube.com/embed/ZsQwK81LdZA",
+        "info":"Bộ phim kể về một chú cu li chậm chạp tên Trí (Zhi) có niềm say mê với tốc độ. Ngôi làng nơi Trí và bà ngoại sống đang đứng trước nguy cơ bị phá hủy để xây dựng một khu trung tâm sang trọng. Khi đó, Trí đã đặt cược với Quang Phế (Vainglorious) - nhà đương kim vô địch của cuộc đua Con đường Tơ lụa (Silk Road Rally). Với sự giúp đỡ của một nhà cựu vô địch đua xe, Trí tham gia Cuộc đua Con đường Tơ lụa kéo dài bốn ngày với hy vọng chiến thắng để cứu ngôi làng cũng như thực hiện ước mơ đua xe của mình.",
+        "ticket":"#"
+    },
+    {
+        "goto":"./conan26.html",
+        "image":"./img/conan-movie-26.jpg",
+        "name":"CONAN MOVIE 26",
+        "link":"https://www.youtube.com/embed/Ades3pQbeh8",
+        "info":"Thám Tử Lừng Danh Conan: Tàu Ngầm Sắt Màu Đen lấy bối cảnh tại Pacific Buoy - một trụ sở hàng hải của Interpol có nhiệm vụ kết nối các camera an ninh trên toàn thế giới. Nhóm của Conan, theo lời mời của Sonoko, cũng đến đảo Hachijo để xem cá voi. Tại đây, Conan nhận được thông tin về một nhân viên Europol bị ám sát. Cùng với đó, tính mạng Haibara bị đe dọa, phải chăng thân phận của cô đã bị bại lộ trước Gin…",
+        "ticket":"./datve.html"
+    },
+    {
+        "goto":"#",
+        "image":"./img/ma-so-truc-quy.jpg",
+        "name":"MA SƠ TRỤC QUỶ",
+        "link":"https://www.youtube.com/embed/g1VyqwPog8Y",
+        "info":"Ofelia - một nữ tu trẻ vừa đặt chân đến thị trấn San Ramon đã bị ép phải thực hiện buổi lễ trừ tà cho một phụ nữ đang mang thai. Tưởng chừng buổi trục quỷ đã hoàn tất, Ofelia bàng hoàng nhận ra hiện thân quỷ dữ chưa từng biến mất.",
+        "ticket":"#"
+    },
+    {
+        "goto":"#",
+        "image":"./img/nhiem-vu-bat-kha-thi-poster.jpg",
+        "name":"NHIỆM VỤ BẤT KHẢ THI",
+        "link":"https://www.youtube.com/embed/AX7lnd9w_yc",
+        "info":"Phần phim thứ 7 của loạt phim Nhiệm Vụ Bất Khả Thi",
+        "ticket":"#"
+    },
+    {
+        "goto":"#",
+        "image":"./img/resident-evil-poster.jpg",
+        "name":"RESIDENT EVIL",
+        "link":"https://www.youtube.com/embed/L-vkuA8oqMY" ,
+        "info":"Đặc vụ D.S.O. Leon S. Kennedy đang thực hiện nhiệm vụ giải cứu Tiến sĩ Antonio Taylor khỏi những kẻ bắt cóc, thì bất ngờ bị một phụ nữ bí ẩn ngăn cản. Trong lúc đó, đặc vụ B.S.A.A. Chris Redfield đang điều tra một đại dịch xác sống ở San Francisco mà chưa xác định được nguyên nhân lây nhiễm. Điểm chung duy nhất của các nạn nhân là tất cả đều ghé thăm đảo Alcatraz không lâu trước đó. Lần theo manh mối này, Chris và đồng đội tìm đến hòn đảo, nơi một cơn kinh hoàng khác đang chờ đón họ. T18 - PHIM ĐƯỢC PHỔ BIẾN ĐẾN NGƯỜI XEM TỪ ĐỦ 18 TUỔI TRỞ LÊN (18+)",
+        "ticket":"#"
+    },
+    {
+        "goto":"#",
+        "image":"./img/xu-so-cac-nguyen-to.jpg",
+        "name":"XỨ SỞ CÁC NGUYÊN TỐ",
+        "link":"https://www.youtube.com/embed/maq_YK88Xnw" ,
+        "info":"Xứ Sở Các Nguyên Tố từ Disney và Pixar lấy bối cảnh tại thành phố các nguyên tố, nơi lửa, nước, đất và không khí cùng chung sống với nhau. Câu chuyện xoay quanh nhân vật Ember, một cô nàng cá tính, thông minh, mạnh mẽ và đầy sức hút. Tuy nhiên, mối quan hệ của cô với Wade - một anh chàng hài hước, luôn thuận thế đẩy dòng - khiến Ember cảm thấy ngờ vực với thế giới này. K - PHIM ĐƯỢC PHỔ BIẾN ĐẾN NGƯỜI XEM DƯỚI 13 TUỔI VÀ CÓ NGƯỜI BẢO HỘ ĐI KÈM",
+        "ticket":"#"
+    }
+]

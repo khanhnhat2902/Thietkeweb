@@ -1,0 +1,107 @@
+div.nav-click{
+    display: block;
+    text-align: right;
+    margin-right:10px ;
+}
+div.col1{
+    width: 80%;
+}
+div.col1 > img{
+    width: 100%;
+}
+.col2{
+    width: 20%;
+}
+div.col2 > div.menu{
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    right: -100%;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    background: rgba(0,0,0,0.7);
+    transition: all 2s;
+}
+div.active{
+    right: 0 !important;
+}
+div.col2 > div.nav-click{
+    display: block;
+}
+div.search{
+    width: 100%;
+}
+ul.nav{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border:double;
+    border-radius: 20px;
+    overflow: hidden;
+}
+ul.nav > li{
+    width: 100%;
+}
+div.register{
+    width: 50%;
+}
+div.login{
+    width: 50%;
+}
+form{
+    width: 100%;
+    z-index: 1;
+}
+form input.input-text{
+    margin: 5px;
+    border: pink solid;
+    border-radius:20px;
+    width: 95%;
+}
+div#map{
+    width: 100%;
+    overflow: scroll;
+}
+.info-container{
+    height: 300px;
+    width: 100%;
+    background: #E9967A;
+    display: flex;
+    margin: 10px;
+    padding: 5px;
+}
+div.infomation{
+    margin: 10px;
+}
+div.infomation > div{
+    margin: 5%;
+}
+div.infomation > div.name{
+    font-size: 20px;
+}
+ul.select-time{
+    display: block;
+    list-style-type: none;
+    padding: 0;
+}
+ul.select-time li{
+    background: yellow;
+    padding: 10px;
+    margin: 2%;
+    width: 90px;
+    text-align: center;
+}
+ul.select-time li > a{
+    padding: 50;
+    margin: 0;
+    text-decoration: none;
+}
+div.exit{
+    display: block;
+    text-align: center;
+    width: 100%;
+}

@@ -1,0 +1,257 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+body{
+background: rgb(156, 234, 252);
+}
+header{
+    display: flex;
+    align-items: center;
+    max-height: 150px;
+    position: sticky;
+    top:0;
+    left:0;
+    right:0;
+    z-index: 999;
+    background: inherit;
+}
+ul.nav{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border:double;
+    border-radius: 20px;
+    overflow: hidden;
+}
+ul.nav>li>a{
+    text-decoration: none;
+    display: block; 
+    padding: 10px;
+    background:  #E9967A;
+    color:white;
+}
+ul.nav>li>a:hover{
+    background: orange;
+    transition: background 0.5s;
+}
+div.col1{
+    width: 30%;
+}
+div.col2{
+    width: 70%;
+}
+div.col2 > div.menu{
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+div.col2 > div.nav-click{
+    display: none;
+}
+div.exit{
+    display: none;
+}
+.search{
+    margin-bottom: 10px; 
+}
+.search > div{
+    background: black;
+    border-radius: 20px;
+    padding: 10px;
+}
+.search > div button{
+    border:black ;
+    background-color: black;
+    color: white;
+    margin: 1px;
+}
+.search input{
+    color: white;
+    border: none;
+    background-color: rgb(30, 26, 26);
+}
+form{
+    width: 500px;
+    background: white;
+    border: pink solid;
+    margin: 0;
+    padding: 0;
+    display: none;
+    position: absolute;
+}
+form input.input-text{
+    margin: 5px;
+    border: pink solid;
+    border-radius:20px;
+    width: 45%;
+}
+div.center{
+    text-align: center;
+    margin: 5px;
+}
+div.register{
+    position: relative;
+}
+div.register:hover form{
+    display: block;
+}
+div.register:hover{
+    background: gold;
+    transition: background 0.5s;
+}
+section{
+    background: antiquewhite;
+    width: 100%;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+.user{
+    display: flex;
+    width: 100%;
+}
+div.login{
+    position: relative;
+}
+div.login:hover form{
+    display: block;
+}
+div.login:hover{
+    background: gold;
+}
+.login-button{
+    display: flex;
+    justify-content: space-around;
+}
+.myslides{
+    display: none;
+}
+h1.subject{
+    text-align: center;
+}
+h1.subject span{
+    background-color: gold;
+    padding: 5px;
+    border-radius: 20px 20px 0 0;
+}
+.subject::after{
+    content: " ";
+    display:block;
+    height: 5px;
+    background: gold;
+    width: 100%;
+}
+.slide-container{
+    width: 100%;
+    height: 500px;
+    background: antiquewhite;
+    position: relative;
+}
+div.wrapper-slide{
+    width: 80%;
+    height: 100%;
+    overflow: hidden;
+    margin:0 auto;
+}
+div.slide-show{
+    
+    height: 100%;
+    display: flex;
+    align-items: center;
+    transition: translateX 1s;
+}
+div.slide-show > div {
+    text-align: center;
+    height: 70%;
+    width: 20%;
+    position: relative;
+    padding: 1%;
+    flex:1 0 20%;
+}
+div.slide-itiem > div.movie-pic{
+    width: 100%;
+    height: 100%;
+    
+}
+div.slide-itiem > div.movie-pic >img{
+    width: 100%;
+    height: 100%;
+}
+div.movie-summary{
+    max-height: 50%;
+    text-align: center;
+    overflow: hidden;
+    color: white;
+}
+div.movie-info div{
+    padding: 10px;
+}
+div.movie-info div > a{
+    background: palevioletred;
+    border-radius: 10px;
+    padding: 5px;
+    text-decoration: none;
+    color: rgb(30, 26, 26);
+}
+div.slide-show > div > div.slide-itiem  div.movie-info{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.7);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    opacity: 0;
+}
+div.slide-show > div > div.slide-itiem:hover  div.movie-info{
+    opacity: 1;
+    transition: opacity 1s;
+}
+div.slide-container > button{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    background: palevioletred;
+    color: white;
+}
+div.slide-container button.next{
+    right: 3%;
+    top: 50%;
+    opacity: 0.7;
+}
+div.slide-container button.prev{
+    left: 3%;
+    top: 50%;
+    opacity: 0.7;
+    transform: translateX() 1s;
+}
+footer{
+    display: flex;
+    align-items: center;
+    max-height: 150px;
+}
+div#gototop{
+    background: rgb(222, 173, 82);
+    text-align: center;
+    margin: 5px;
+    width: 40px;
+    height: 40px;
+    padding: 12px;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 20;
+    display: none;
+}
+div#gototop > a{
+    text-decoration: none;
+}
+
+
